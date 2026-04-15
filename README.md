@@ -22,3 +22,10 @@ https://maninetralaya.in
 Project Description
 
 This project was built to help a real clinic establish an online presence and improve accessibility for patients.
+
+
+## Screenshots
+
+![Homepage](Screenshot (180).png)
+![Services](Screenshot (181).png)
+![Contact](Screenshot (182).png)
