@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mani Netralaya | Best Eye Clinic in Manneguda Hyderabad</title>
+
+<meta name="description" content="Mani Nethralaya is an advanced eye care clinic in Manneguda, Hyderabad offering cataract surgery, LASIK treatment, glaucoma care, eye checkups and vision correction.">
+
+<meta name="keywords" content="Eye clinic in Manneguda, Eye hospital Hyderabad, Cataract surgery Hyderabad, LASIK treatment Hyderabad, Eye doctor near me">
+
+<meta name="author" content="Mani Netralaya">
+
+<link rel="icon" type="image/png" href="a.jpeg">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body>
+
+<!-- Loader -->
+
+<div id="loader">
+<div class="spinner"></div>
+</div>
+
+<header class="topbar">
+
+  <div class="logo-area">
+    <img src="a.jpeg" class="logo-img">
+
+    <div class="logo-text">
+      <h2 class="logo">Mani Netralaya</h2>
+      <p class="tagline">Precision in Every Vision</p>
+    </div>
+  </div>
+
+  <div class="top-buttons">
+
+  <!-- Desktop buttons -->
+  <a href="tel:8187888979" class="call-btn desktop-btn">
+    <i class="fa-solid fa-phone"></i> Call Now
+  </a>
+
+  <a href="https://wa.me/918187888979" class="wa-btn desktop-btn">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+
+  <!-- Mobile circle icons -->
+  <a href="tel:8187888979" class="icon-btn mobile-btn">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+
+  <a href="https://wa.me/918187888979" class="icon-btn mobile-btn">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+</div>
+
+</header>
+<nav class="navbar">
+<div class="menu-icon" onclick="toggleMenu()">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+<ul id="nav-links">
+  <div class="close-menu" onclick="toggleMenu()">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+  <li><a href="#home">Home</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#doctor">Doctor</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section  id="home" class="hero">
+<div class="hero-text">
+<h1 class="gradient-text-main">Welcome to <span>Mani Netralaya</span></h1>
+<p>
+We provide advanced eye care treatments using modern
+technology and experienced specialists to protect your vision.
+</p>
+
+<div class="hero-buttons">
+  <a href="tel:+918187888979" class="hero-call"><i class="fa fa-phone"></i> Call Now</a>
+  <!-- <a href="#contact" class="hero-book"><i class="fa fa-calendar" ></i> Book Appointment</a> -->
+   <a href="#" class="facility-book" onclick="openForm()">
+      <i class="fa-solid fa-calendar-check"></i> Book an Appointment
+    </a>
+</div>
+
+<!-- ADD THIS BELOW BUTTONS -->
+<div class="hero-stats ">
+  <div class="stat">
+    <h3 id="experience"></h3>
+    <p>Years Experience</p>
+  </div>
+  <div class="stat">
+    <h3>15K+</h3>
+    <p>Patients</p>
+  </div>
+  <div class="stat">
+    <h3>10+</h3>
+    <p>Eye Treatments</p>
+  </div>
+</div>
+</div>
+
+<div class="hero-image">
+<img src="doctor1.jpeg" id="d1">
+</div>
+</section>
+<!-- IMAGE SLIDER -->
+ <section id="gallery" class="facility-section">
+
+  <h2>Inside Our Eye Care Facility</h2>
+  <p>Comprehensive Eye & Wellness Checkups for a Clearer, Healthier You</p>
+
+  <div class="facility-images">
+  <div class="auto-slider">
+
+    <div class="slide-track">
+
+      <img src="images/1.jpeg" alt="image" draggable="false">
+      <img src="images/2.jpeg" alt="image" draggable="false">
+      <img src="images/6.jpeg" alt="image" draggable="false">
+      <img src="images/3.jpeg" alt="image" draggable="false">
+      <img src="images/4.jpeg" alt="image" draggable="false">
+      
+      <!-- duplicate for smooth loop -->
+      <img src="images/8.jpeg" alt="image" draggable="false">
+      <img src="images/9.jpeg" alt="image" draggable="false">
+      <img src="images/5.jpeg" alt="image" draggable="false">
+      <img src="images/7.jpeg" alt="image" draggable="false">
+
+    </div>
+
+  </div>
+</div>
+
+  <div class="facility-buttons">
+
+    <a href="tel:8187888979" class="facility-call">
+      <i class="fa-solid fa-phone"></i> Call Now
+    </a>
+
+    <a href="#contact" class="facility-book" onclick="openForm()">
+      <i class="fa-solid fa-calendar-check"></i> Book an Appointment
+    </a>
+
+  </div>
+
+</section>
+<!-- DOCTOR -->
+
+<section id="doctor" class="doctor-section reveal">
+
+<h2 class="doctor-heading  gradient-text-soft">Meet Our Doctor</h2>
+
+<div class="doctor-card">
+
+<img src="doctor.jpeg" class="doctor-photo">
+
+<div class="doctor-content">
+
+<h3>Dr. A.Mounika</h3>
+
+<p class="doctor-degree">
+MBBS,DO(OSM),DNB Consultant Ophthalmologist and Phaco surgeon
+</p>
+
+<div class="doctor-info">
+
+<div class="info-box">
+<i class="fa-solid fa-calendar"></i>
+<div>
+<b id="exp-years">6 Years</b>
+<p>Experience</p>
+</div>
+</div>
+
+<div class="info-box">
+<i class="fa-solid fa-thumbs-up"></i>
+<div>
+<b>97%</b>
+<p>Positive Reviews</p>
+</div>
+</div>
+
+</div>
+
+<p class="doctor-description">
+Dr. A. Mounika is a dedicated ophthalmologist specializing in advanced eye care, committed to delivering precise and patient-centered treatment. She has expertise in managing a wide range of eye conditions, including cataract, retina disorders, and glaucoma. With a strong focus on quality and professionalism, she also provides comprehensive contact lens services tailored to individual patient needs
+</p>
+
+<a  href="#contact" class="doctor-btn"  onclick="openForm()">
+  <i class="fa-solid fa-calendar-check"></i>  Book Appointment</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+
+<h2 class="services-title gradient-text-premium">
+  Our Eye Care Services 
+</h2>
+
+<div class="service-container">
+
+<div class="service-card">
+<img src="cataract.webp" alt="Cataract Surgery Treatment" draggable="false">
+<h3>Cataract Surgery</h3>
+<p>Cataract is a condition where the eye lens becomes cloudy affecting vision.</p>
+</div>
+
+<div class="service-card">
+<img src="lasik.jpg" alt="Lasik-Refractive" draggable="false">
+<h3>LASIK Treatment</h3>
+<p>Advanced laser treatment to correct vision and remove glasses.</p>
+</div>
+
+<div class="service-card">
+<img src="pediatric-ophthalmology.png" alt="Pediatric Ophthalmology" draggable="false">
+<h3>Pediatric Ophthalmology</h3>
+<p>Special eye care treatments designed for children's eye health.</p>
+</div>
+
+<div class="service-card">
+<img src="eye-tests.avif" alt="Eye Check Up" draggable="false">
+<h3>Eye Checkup</h3>
+<p>Complete eye examination using advanced diagnostic equipment.</p>
+</div>
+
+<div class="service-card">
+<img src="glaucoma.webp" alt="glaucoma Treatment" draggable="false">
+<h3>Glaucoma Treatment</h3>
+<p>Early detection and treatment to protect optic nerve and vision.</p>
+</div>
+
+<div class="service-card">
+<img src="Contact.jpg" alt="Contact Lens" draggable="false">
+<h3>Contact Lens</h3>
+<p>Expert consultation to choose comfortable and safe contact lenses.</p>
+</div>
+
+</div>
+
+</section>
+<!-- CONTACT -->
+
+
+
+<section id="contact" class="contact reveal">
+
+<h2 class="gradient-text-blue">Contact Our Clinic</h2>
+
+<p class="address">Manneguda, Hyderabad</p>
+
+<div class="contact-icons">
+
+<a href="tel:8187888979" class="contact-btn">
+<i class="fa-solid fa-phone"></i> Call Now
+</a>
+
+<a href="https://wa.me/918187888979" target="_blank" class="contact-btn">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+<a href="https://www.instagram.com/maninethralaya?igsh=eng5dTZ3ejJmOHk4" target="_blank" class="contact-btn">
+<i class="fa-brands fa-instagram"></i> Instagram
+</a>
+
+<a href="https://maps.app.goo.gl/bGznEtrvF8QzCEAP6?g_st=aw" target="_blank" class="contact-btn">
+<i class="fa-solid fa-location-dot"></i> Location
+</a>
+
+</div>
+
+<!-- MAP SECTION -->
+
+<section class="map-section">
+
+<h2>Find Our Clinic</h2>
+
+<div class="map-container">
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3810.2445654430962!2d78.585776!3d17.255399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDE1JzE5LjQiTiA3OMKwMzUnMDguOCJF!5e0!3m2!1sen!2sin!4v1773929284797!5m2!1sen!2sin" 
+width="600" 
+height="450"
+ style="border:0;" 
+ allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+</section>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer reveal">
+
+<div class="footer-container">
+
+<div class="footer-col">
+<h3>Mani Netralaya</h3>
+<p>
+Advanced eye care clinic providing modern treatments
+for cataract, LASIK, glaucoma and vision correction.
+</p>
+</div>
+
+<div class="footer-col">
+  <h3>Contact Info</h3>
+
+ <p>
+  <i class="fa-solid fa-location-dot"></i> 
+  <a href="https://maps.app.goo.gl/bGznEtrvF8QzCEAP6?g_st=aw" target="_blank" class="footer-link">Manneguda, Hyderabad
+  </a>
+</p>
+  <p>
+    <i class="fa-solid fa-phone"></i> 
+    <a href="tel:+918187888979" class="footer-link">+91 8187888979
+    </a>
+  </p>
+
+  <p>
+    <i class="fa-solid fa-envelope"></i> 
+    <a href="mailto:maninetralaya@gmail.com" class="footer-link">maninetralaya@gmail.com
+    </a>
+  </p>
+</div>
+<div class="footer-col visiting-hours">
+
+<h3>Visiting Hours</h3>
+
+<div class="visit-row">
+<i class="fa-regular fa-clock"></i>
+<div>
+<span class="day">Monday – Saturday</span>
+<span class="time">10:00 am – 9:00 pm</span>
+</div>
+</div>
+
+<div class="visit-row">
+<i class="fa-regular fa-clock"></i>
+<div>
+<span class="day">Sunday</span>
+<span class="time">11:00 am – 2:00 pm</span>
+</div>
+</div>
+
+</div>
+
+<div class="footer-col">
+
+<h3>Follow Us</h3>
+
+<div class="social-icons">
+
+<a href="https://www.instagram.com/maninethralaya?igsh=eng5dTZ3ejJmOHk4" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+
+<a href="https://wa.me/918187888979" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+<a href="https://maps.app.goo.gl/bGznEtrvF8QzCEAP6?g_st=aw" target="_blank">
+    <i class="fas fa-map-marker-alt"></i>
+  </a>
+
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 Mani Netralaya | All Rights Reserved</p>
+</div>
+
+</footer>
+
+<!-- Floating WhatsApp -->
+
+<a href="https://wa.me/918187888979" class="floating-wa" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Mobile Bottom Contact Bar -->
+
+<div class="mobile-bar">
+
+<a href="tel:8187888979">
+<i class="fa-solid fa-phone"></i>
+<span>Call</span>
+</a>
+
+<a href="https://wa.me/918187888979" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+<span>WhatsApp</span>
+</a>
+
+<a href="https://maps.app.goo.gl/bGznEtrvF8QzCEAP6?g_st=aw" target="_blank">
+<i class="fa-solid fa-location-dot"></i>
+<span>Location</span>
+</a>
+
+<a href="https://www.instagram.com/maninethralaya?igsh=eng5dTZ3ejJmOHk4" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+<span>Insta</span>
+</a>
+
+</div>
+
+<a href="https://wa.me/918187888979?text=Hello%20I%20want%20to%20book%20an%20appointment%20at%20Mani%20Nethralaya" 
+class="book-appointment-btn" 
+target="_blank">
+
+<i class="fa-solid fa-calendar-check"></i> Book Appointment
+
+</a>
+<!-- !form  -->
+ <div id="appointmentForm" class="form-popup">
+
+  <div class="form-box">
+    <h2>Book Appointment</h2>
+
+    <!-- <input type="text" id="name" placeholder="Enter your name" required>
+    <input type="tel" id="phone" placeholder="Enter your phone number" required> -->
+    <input 
+type="text" 
+id="name" 
+placeholder="Enter your name" 
+pattern="[A-Za-z ]{3,}" 
+required>
+<input 
+type="tel" 
+id="phone"  
+
+
+
+
+placeholder="Enter 10-digit phone number" 
+pattern="[0-9]{10}" 
+maxlength="10" 
+required>
+
+    <button type="button" onclick="sendToWhatsApp()">Submit</button>
+    
+    <span class="close-btn" onclick="closeForm()">✖</span>
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
